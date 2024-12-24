@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import { connectDB } from "./config/db.js";
-import productRoutes from "file://c:/programing/Projects/Product-market with MERN/Backend/routes/product.route.js"
+import productRoutes from "./routes/product.route.js"
 
 
 dotenv.config();

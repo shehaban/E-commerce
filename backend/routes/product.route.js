@@ -1,5 +1,5 @@
 import express from "express";
-import { createProduct, getProducts, updateProduct, deleteProduct } from "file://c:/programing/Projects/Product-market with MERN/backend/controllers/product.controller.js";
+import { createProduct, getProducts, updateProduct, deleteProduct } from "../controllers/product.controller.js";
 
 const router = express.Router();
  
